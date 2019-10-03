@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.12.19)  29 SEP 2019 12:09
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.12.19)  3 OCT 2019 11:40
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **presentation.tex
@@ -1007,35 +1007,7 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia/xmpmulti.sty
-\@mpm@count=\count344
-)
-(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count345
-\c@Blindtext=\count346
-\c@blind@countparstart=\count347
-\blind@countxx=\count348
-\blindtext@numBlindtext=\count349
-\blind@countyy=\count350
-\c@blindlist=\count351
-\c@blindlistlevel=\count352
-\c@blindlist@level=\count353
-\blind@listitem=\count354
-\c@blind@listcount=\count355
-\c@blind@levelcount=\count356
-\blind@mathformula=\count357
-\blind@Mathformula=\count358
-\c@blind@randomcount=\count359
-\c@blind@randommax=\count360
-\c@blind@pangramcount=\count361
-\c@blind@pangrammax=\count362
-))
+)))
 (./beamerthemeEurac.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -1076,7 +1048,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count363
+\pgf@plot@mark@count=\count344
 \pgfplotmarksize=\dimen193
 )
 \tikz@lastx=\dimen194
@@ -1089,18 +1061,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box55
 \tikz@tempbox=\box56
 \tikz@tempbox@bg=\box57
-\tikztreelevel=\count364
-\tikznumberofchildren=\count365
-\tikznumberofcurrentchild=\count366
-\tikz@fig@count=\count367
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count368
-\pgfmatrixcurrentcolumn=\count369
-\pgf@matrix@numberofcolumns=\count370
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
 )
-\tikz@expandcount=\count371
+\tikz@expandcount=\count352
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1120,21 +1092,21 @@ zlibraryintersections.code.tex
 s.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-\pgf@intersect@solutions=\count372
+\pgf@intersect@solutions=\count353
 )) (/usr/share/texlive/texmf-dist/tex/generic/shapepar/shapepar.sty
 \cutoutsep=\skip71
 Package: shapepar 2013/03/26 v 2.2x, Shaped paragraphs
 \SH@scale=\dimen256
 \SH@boxb=\box58
-\SH@ntries=\count373
+\SH@ntries=\count354
 \spec@bot=\dimen257
-\sqrtcount=\count374
+\sqrtcount=\count355
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write6
-\integerpart=\count375
-\decimalpart=\count376
+\integerpart=\count356
+\decimalpart=\count357
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -1154,24 +1126,24 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count377
-\l_tmpa_int=\count378
-\l_tmpb_int=\count379
-\g_tmpa_int=\count380
-\g_tmpb_int=\count381
+\c_max_int=\count358
+\l_tmpa_int=\count359
+\l_tmpb_int=\count360
+\g_tmpa_int=\count361
+\g_tmpb_int=\count362
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count382
+\g__prg_map_int=\count363
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count383
-\l__iow_target_count_int=\count384
-\l__iow_current_line_int=\count385
-\l__iow_current_word_int=\count386
-\l__iow_current_indentation_int=\count387
+\l_iow_line_count_int=\count364
+\l__iow_target_count_int=\count365
+\l__iow_current_line_int=\count366
+\l__iow_current_word_int=\count367
+\l__iow_current_indentation_int=\count368
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen258
 \c_max_dim=\dimen259
@@ -1192,18 +1164,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count388
-\l_keys_choice_int=\count389
+\g__keyval_level_int=\count369
+\l_keys_choice_int=\count370
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count390
-\c__fp_middle_shift_int=\count391
-\c__fp_trailing_shift_int=\count392
-\c__fp_big_leading_shift_int=\count393
-\c__fp_big_middle_shift_int=\count394
-\c__fp_big_trailing_shift_int=\count395
-\c__fp_Bigg_leading_shift_int=\count396
-\c__fp_Bigg_middle_shift_int=\count397
-\c__fp_Bigg_trailing_shift_int=\count398
+\c__fp_leading_shift_int=\count371
+\c__fp_middle_shift_int=\count372
+\c__fp_trailing_shift_int=\count373
+\c__fp_big_leading_shift_int=\count374
+\c__fp_big_middle_shift_int=\count375
+\c__fp_big_trailing_shift_int=\count376
+\c__fp_Bigg_leading_shift_int=\count377
+\c__fp_Bigg_middle_shift_int=\count378
+\c__fp_Bigg_trailing_shift_int=\count379
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box59
 \l_tmpa_box=\box60
@@ -1253,15 +1225,15 @@ L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count399
+\l__driver_color_stack_int=\count380
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count400
-\l__xparse_m_args_int=\count401
-\l__xparse_mandatory_args_int=\count402
-\l__xparse_processor_int=\count403
-\l__xparse_v_nesting_int=\count404
+\l__xparse_current_arg_int=\count381
+\l__xparse_m_args_int=\count382
+\l__xparse_mandatory_args_int=\count383
+\l__xparse_processor_int=\count384
+\l__xparse_v_nesting_int=\count385
 )
 Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
 
@@ -1298,14 +1270,14 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.054 seconds)
+luaotfload | main : initialization completed in 0.072 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
 X
-\l_fontspec_script_int=\count405
-\l_fontspec_language_int=\count406
-\l_fontspec_strnum_int=\count407
+\l_fontspec_script_int=\count386
+\l_fontspec_language_int=\count387
+\l_fontspec_strnum_int=\count388
 \l__fontspec_tmpa_dim=\dimen289
 \l__fontspec_tmpb_dim=\dimen290
 \l__fontspec_tmpc_dim=\dimen291
@@ -1346,7 +1318,7 @@ File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmsans10-regular.
 luc)(load luc: /home/alekoe/.texmf-var/luatex-cache/generic/fonts/otf/lmsans10-r
 egular.luc))
-\tipaTiiicode=\count408
+\tipaTiiicode=\count389
 \tipasavetokens=\toks47
 \tipachecktokens=\toks48
 )
@@ -1455,15 +1427,15 @@ egular.luc))
 . 
 . Defining command \DeclareFontsExtensions with sig. 'm' on line 603.
 .................................................
-\l__fontspec_tmp_int=\count409
+\l__fontspec_tmp_int=\count390
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 2629.
 LaTeX Info: Redefining \slshape on input line 2634.
 LaTeX Info: Redefining \scshape on input line 2639.
 LaTeX Info: Redefining \upshape on input line 2644.
-\l__fontspec_em_int=\count410
-\l__fontspec_emdef_int=\count411
+\l__fontspec_em_int=\count391
+\l__fontspec_emdef_int=\count392
 LaTeX Info: Redefining \em on input line 2660.
 LaTeX Info: Redefining \emph on input line 2666.
 LaTeX Info: Redefining \- on input line 2670.
@@ -1494,9 +1466,9 @@ Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-\g__um_fam_int=\count412
+\g__um_fam_int=\count393
 \g__um_primekern_muskip=\muskip18
-\l__um_primecount_int=\count413
+\l__um_primecount_int=\count394
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1574,7 +1546,7 @@ luaotfload | load : Lookup/name: "Cambria" -> "cambria.ttc(0)"(compiling luc: /v
 ar/lib/texmf/luatex-cache/generic/fonts/otf/cambria-0.luc)(load luc: /home/aleko
 e/.texmf-var/luatex-cache/generic/fonts/otf/cambria-0.luc)
 luaotfload | load : Lookup/name: "Cambria" -> "cambria.ttc(0)"
-\g__fontspec_family_Cambria_int=\count414
+\g__fontspec_family_Cambria_int=\count395
 luaotfload | load : Lookup/name: "Cambria" -> "cambria.ttc(0)"
 luaotfload | load : Lookup/name: "Cambria" -> "cambriaz.ttf"(compiling luc: /var
 /lib/texmf/luatex-cache/generic/fonts/otf/cambriaz.luc)(load luc: /home/alekoe/.
@@ -1666,7 +1638,7 @@ luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"(compiling luc: /var/
 lib/texmf/luatex-cache/generic/fonts/otf/calibri.luc)(load luc: /home/alekoe/.te
 xmf-var/luatex-cache/generic/fonts/otf/calibri.luc)
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
-\g__fontspec_family_Calibri_int=\count415
+\g__fontspec_family_Calibri_int=\count396
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
 luaotfload | load : Lookup/name: "Calibri" -> "calibriz.ttf"(compiling luc: /var
 /lib/texmf/luatex-cache/generic/fonts/otf/calibriz.luc)(load luc: /home/alekoe/.
@@ -1764,7 +1736,7 @@ luaotfload | aux : no font with id 32
 . 
 . Font Inconsolata does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_Inconsolata_int=\count416
+\g__fontspec_family_Inconsolata_int=\count397
 luaotfload | load : Lookup/name: "Inconsolata" -> "Inconsolata.otf"
 luaotfload | load : Lookup/name: "Inconsolata" -> "Inconsolata.otf"
 .................................................
@@ -1859,7 +1831,7 @@ luaotfload | load : Lookup/name: "Cambria Math" -> "cambria.ttc(1)"(compiling lu
 c: /var/lib/texmf/luatex-cache/generic/fonts/otf/cambria-1.luc)(load luc: /home/
 alekoe/.texmf-var/luatex-cache/generic/fonts/otf/cambria-1.luc)
 luaotfload | load : Lookup/name: "Cambria Math" -> "cambria.ttc(1)"
-\g__fontspec_family_CambriaMath_int=\count417
+\g__fontspec_family_CambriaMath_int=\count398
 luaotfload | load : Lookup/name: "Cambria Math" -> "cambria.ttc(1)"
 luaotfload | load : Lookup/name: "Cambria Math" -> "cambria.ttc(1)"
 .................................................
@@ -2022,11 +1994,170 @@ unded.sty
 Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ) (./beamerouterthemeEurac.sty))
 
+./presentation.tex:10: LaTeX Error: Command \myauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...\myauthor}{Alexander König, Egon W. Stemle}
+                                                  
+? 
+./presentation.tex:10: Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.10 ...\myauthor}{Alexander König, Egon W. Stemle}
+                                                  
+? quit
+OK, entering \batchmode...
+
+./presentation.tex:11: LaTeX Error: Command \myshortauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \newcommand{\myshortauthor}{König, Stemle}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:12: LaTeX Error: Command \mymail already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...mmand{\mymail}{Firstname.Lastname@eurac.edu}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:13: LaTeX Error: Command \mytitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...chnical Solutions for Reproducible Research}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:16: LaTeX Error: Command \myshorttitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...nd{\myshorttitle}{CAC 2019: Reproducibility}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:18: LaTeX Error: Command \mysubtitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...{\mysubtitle}{CLARIN Annual Conference 2019}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:20: LaTeX Error: Command \mypdftitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ommand{\mypdftitle}{\mytitle -- \mysubtitle}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:21: LaTeX Error: Command \myinstitute already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ics \\ Eurac Research, Bozen/Bolzano, Italy}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:22: LaTeX Error: Command \myshortinstitute already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \newcommand{\myshortinstitute}{ComMul}
+                                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:23: LaTeX Error: Command \mydate already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \newcommand{\mydate}{2 October 2019}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./presentation.tex:24: LaTeX Error: Command \mykeywords already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...d{\mykeywords}{reproducibility, docker, git}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 28.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
@@ -2044,7 +2175,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(./presentation.aux)
+ (./presentation.aux)
 \openout1 = presentation.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -2071,7 +2202,6 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -2106,20 +2236,22 @@ LaTeX Font Info:    ... okay on input line 37.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count418
+\scratchcounter=\count399
 \scratchdimen=\dimen292
 \scratchbox=\box74
-\nofMPsegments=\count419
-\nofMParguments=\count420
+\nofMPsegments=\count400
+\nofMParguments=\count401
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count421
+\MPscratchCnt=\count402
 \MPscratchDim=\dimen293
-\MPnumerator=\count422
-\makeMPintoPDFobject=\count423
+\MPnumerator=\count403
+\makeMPintoPDFobject=\count404
 \everyMPtoPDFconversion=\toks50
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -2132,8 +2264,7 @@ Package grfext Info: Graphics extension search list:
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
-))
-ABD: EveryShipout initializing macros
+)) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box75
 Package hyperref Info: Link coloring OFF on input line 37.
 
@@ -2143,13 +2274,12 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count424
+\c@section@level=\count405
 )
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
-
-(./presentation.out) (./presentation.out)
+ (./presentation.out) (./presentation.out)
 \@outlinefile=\write7
 
 \openout7 = presentation.out
@@ -2255,8 +2385,7 @@ Package biblatex Info: Reference segment=0 on input line 37.
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
 <img/eurac_research-line_logo-red.pdf, id=35, 397.34927pt x 43.19669pt>
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
-
-<use img/eurac_research-line_logo-red.pdf>
+ <use img/eurac_research-line_logo-red.pdf>
 Package pdftex.def Info: img/eurac_research-line_logo-red.pdf used on input line
  37.
 (pdftex.def)             Requested size: 57.65964pt x 6.2688pt.
@@ -2278,6 +2407,7 @@ LaTeX Font Info:    Font shape `EU2/CambriaMath(2)/m/n' will be
 (Font)              scaled to size 4.99992pt on input line 37.
 luaotfload | load : Lookup/name: "CambriaMath" -> "cambria.ttc(1)"
 LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -2300,8 +2430,7 @@ luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf")
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
-
-<use img/eurac_research-line_logo-red.pdf>
+ <use img/eurac_research-line_logo-red.pdf>
 Package pdftex.def Info: img/eurac_research-line_logo-red.pdf used on input line
  72.
 (pdftex.def)             Requested size: 57.65964pt x 6.2688pt.
@@ -2310,13 +2439,12 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[2
+ [2
 
 <./img/eurac_research-line_logo-red.pdf>]
 luaotfload | load : Lookup/name: "Calibri" -> "calibri.ttf"
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
-
-<use img/eurac_research-line_logo-red.pdf>
+ <use img/eurac_research-line_logo-red.pdf>
 Package pdftex.def Info: img/eurac_research-line_logo-red.pdf used on input line
  90.
 (pdftex.def)             Requested size: 57.65964pt x 6.2688pt.
@@ -2325,7 +2453,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[3
+ [3
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2338,7 +2466,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[4
+ [4
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2351,7 +2479,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[5
+ [5
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2364,7 +2492,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[6
+ [6
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2377,7 +2505,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[7
+ [7
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2390,7 +2518,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[8
+ [8
 
 ]
 LaTeX Font Info:    Font shape `EU2/CambriaMath(1)/m/n' will be
@@ -2426,7 +2554,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[9
+ [9
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2439,7 +2567,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[10
+ [10
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2452,7 +2580,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[11
+ [11
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2465,7 +2593,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[12
+ [12
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2478,7 +2606,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[13
+ [13
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2491,7 +2619,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[14
+ [14
 
 ] (./presentation.toc)
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2504,7 +2632,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[15
+ [15
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2517,7 +2645,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[16
+ [16
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2530,7 +2658,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[17
+ [17
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2543,7 +2671,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[18
+ [18
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2556,7 +2684,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[19
+ [19
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2569,7 +2697,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[20
+ [20
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2582,7 +2710,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[21
+ [21
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2595,7 +2723,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[22
+ [22
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2608,7 +2736,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[23
+ [23
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2621,7 +2749,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[24
+ [24
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2634,7 +2762,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[25
+ [25
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2647,7 +2775,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[26
+ [26
 
 ] (./presentation.toc)
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2660,7 +2788,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[27
+ [27
 
 ]
 luaotfload | load : Lookup/name: "Inconsolata" -> "Inconsolata.otf"
@@ -2689,7 +2817,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[28
+ [28
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2702,7 +2830,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[29
+ [29
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2715,7 +2843,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[30
+ [30
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2728,7 +2856,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[31
+ [31
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2741,7 +2869,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[32
+ [32
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2754,7 +2882,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[33
+ [33
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2767,7 +2895,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[34
+ [34
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2780,7 +2908,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[35
+ [35
 
 ] (./presentation.toc)
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2793,7 +2921,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[36
+ [36
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2806,7 +2934,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[37
+ [37
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2819,7 +2947,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[38
+ [38
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2832,7 +2960,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[39
+ [39
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2845,7 +2973,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[40
+ [40
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2858,7 +2986,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[41
+ [41
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2871,7 +2999,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[42
+ [42
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2884,7 +3012,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[43
+ [43
 
 ] (./presentation.toc)
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2897,7 +3025,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[44
+ [44
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2910,7 +3038,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[45
+ [45
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2923,7 +3051,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[46
+ [46
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2936,7 +3064,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[47
+ [47
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2949,7 +3077,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[48
+ [48
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2962,7 +3090,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[49
+ [49
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2975,7 +3103,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[50
+ [50
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -2988,7 +3116,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[51
+ [51
 
 ]
 File: img/eurac_research-line_logo-red.pdf Graphic file (type pdf)
@@ -3001,7 +3129,7 @@ Overfull \hbox (3.03256pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[52
+ [52
 
 ]
 \tf@nav=\write8
@@ -3020,7 +3148,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
 \snap@out=\write11
 
 \openout11 = presentation.dep
-
 Dependency list written on presentation.dep.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
@@ -3032,7 +3159,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45611 strings out of 495004
+ 45389 strings out of 495004
  125200,1373583 words of node,token memory allocated
  4447 words of node memory still in use:
    76 hlist, 13 vlist, 5 rule, 5 disc, 2 math, 132 glue, 15 kern, 18 penalty, 83
@@ -3040,9 +3167,9 @@ Here is how much of LuaTeX's memory you used:
 ocal_par, 109 pdf_literal, 6 pdf_refxform, 1 pdf_start_link, 1 pdf_end_link, 34 
 pdf_colorstack nodes
    avail lists: 2:953,3:680,4:1009,5:428,6:2089,7:36,8:14,9:271,10:178
- 46831 multiletter control sequences out of 65536+600000
- 95 fonts using 44838175 bytes
- 69i,20n,90p,969b,2055s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 46630 multiletter control sequences out of 65536+600000
+ 95 fonts using 44838047 bytes
+ 69i,20n,90p,969b,2039s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/alekoe/.fonts/calibri.ttf></usr/share/fonts/truetype/inconsolata/Inconsol
 ata.otf></home/alekoe/.fonts/calibrib.ttf>
 Output written on presentation.pdf (52 pages, 226235 bytes).

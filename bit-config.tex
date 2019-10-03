@@ -2,18 +2,7 @@
 \usenavigationsymbolstemplate{}
 
 \usepackage[german,english]{babel}
-% \usepackage{yfonts}         % old German fonts
-% \usepackage[safe]{tipa}     % IPA fonts
-
-% \usepackage{tikz}           % create graphics programmatically
-% \usetikzlibrary{arrows}
-% \tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
-
-%%%%%
-%%% BIBLIOGRAPHY
-%
 \usepackage[
-%    style=authoryear,  % currently, only works 
     natbib=true,
     defernumbers=true
 ]{biblatex}
@@ -21,52 +10,14 @@
 % to ensure that quotes are set according to the rules of the main languae
 \usepackage{csquotes}
 
-\DeclareBibliographyCategory{online}
-\DeclareBibliographyCategory{article}
-\DeclareBibliographyCategory{book}
-\DeclareBibliographyCategory{triangle}
-
-\AtDataInput{%
-    \ifboolexpr{%
-        test {\ifboolexpr{%
-            test {\ifentrytype{misc}} 
-            or 
-            test {\ifentrytype{online}}}}
-        and
-        not test {\iffieldundef{url}}
-    }{%
-        \addtocategory{online}{\thefield{entrykey}}
-    }{%
-        \ifboolexpr{%
-            test {\ifentrytype{article}} 
-            or 
-            test {\ifentrytype{inproceedings}}
-            or
-            test {\ifentrytype{incollection}}
-            or
-            test {\ifentrytype{thesis}}
-        }{%
-            \addtocategory{article}{\thefield{entrykey}}
-        }{%
-            \ifboolexpr{%
-                test {\ifentrytype{book}}
-                or
-                test {\ifentrytype{collection}}
-            }{%
-                \addtocategory{book}{\thefield{entrykey}}
-            }{%
-                \addtocategory{triangle}{\thefield{entrykey}}
-            }
-        }
-    }
-}
-%
-%%%
-%%%%%
-
-\usepackage{xmpmulti}
-% \usepackage{multimedia}     % used for animations
-
-% Produce 'blind' text for testing.
-\usepackage{blindtext}
-
+\newcommand{\myauthor}{Alexander König, Egon W. Stemle}
+\newcommand{\myshortauthor}{König, Stemle}
+\newcommand{\mymail}{Firstname.Lastname@eurac.edu}
+\newcommand{\mytitle}{Technical Solutions for Reproducible Research}
+\newcommand{\myshorttitle}{CAC 2019: Reproducibility}
+\newcommand{\mysubtitle}{CLARIN Annual Conference 2019}
+\newcommand{\mypdftitle}{\mytitle -- \mysubtitle}
+\newcommand{\myinstitute}{Institute for Applied Linguistics \\ Eurac Research, Bozen/Bolzano, Italy}
+\newcommand{\myshortinstitute}{ComMul}
+\newcommand{\mydate}{2 October 2019}
+\newcommand{\mykeywords}{reproducibility, docker, git}
