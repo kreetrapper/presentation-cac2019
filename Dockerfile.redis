@@ -1,0 +1,38 @@
+FROM redis:3.2
+
+# install git & postgres 
+RUN apt-get update && apt-get -y upgrade && apt-get install -y git libpq-dev python-psycopg2 libsasl2-dev libldap2-dev libssl-dev
+
+# install python stuff
+RUN apt-get update && apt-get install -y python-dev build-essential libjpeg-dev libssl-dev libffi-dev python-pip dbus libdbus-1-dev libdbus-glib-1-dev libldap2-dev libsasl2-dev
+
+# force check for updates in git repo
+ADD https://api.github.com/repos/Scifabric/pybossa/git/refs/heads/master version_ctap.json
+# clone git repo
+RUN git clone --recursive https://github.com/Scifabric/pybossa /opt/pybossa
+# Access the source code folder
+WORKDIR /opt/pybossa
+# Upgrade pip to latest version
+RUN pip install -U pip
+# Install the required libraries
+RUN pip install -r requirements.txt
+
+# install redis
+RUN apt-get install -y redis-server
+
+# install supervisor
+RUN apt-get install -y python-setuptools
+RUN easy_install supervisor
+COPY supervisord.conf /etc/
+RUN mkdir -p /var/log/supervisor
+
+# copy over config files
+COPY settings_local.py /opt/pybossa/
+COPY alembic.ini /opt/pybossa/
+COPY sentinel.conf /opt/pybossa/contrib/
+
+# run entrypoint script
+COPY entrypoint.sh /usr/bin/entrypoint.sh
+RUN chmod u+x /usr/bin/entrypoint.sh
+ENTRYPOINT ["/usr/bin/entrypoint.sh"]
+

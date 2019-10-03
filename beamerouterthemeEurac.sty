@@ -1,0 +1,40 @@
+\mode<presentation>
+
+\setbeamercolor*{author in head/foot}   {parent=palette quaternary}
+\setbeamercolor*{title in head/foot}    {parent=palette quaternary}
+\setbeamercolor*{shorttitle in head/foot}{parent=palette quaternary}
+\setbeamercolor*{date in head/foot}     {parent=palette quaternary}
+\setbeamercolor*{section in head/foot}  {parent=palette quaternary}
+
+% eurac research logo footer
+\logo{\includegraphics[height=2.25ex]{img/eurac_research-line_logo-red.pdf}}
+\defbeamertemplate*{footline}{Eurac theme}
+{%
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,right]{author in head/foot}%
+    %\usebeamerfont{author in head/foot}\insertshortauthor\expandafter\beamer@ifempty\expandafter{\beamer@shortinstitute}{}{~~(\insertshortinstitute)}
+    \hspace*{2ex}
+    \parbox[][][c]{.15\textwidth}{\insertlogo}\hspace{0pt plus 1 filll}
+    %\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2ex}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{author in head/footer}\insertshortauthor 
+    ---
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+      \usebeamerfont{date in head/foot}\insertshortdate{}
+      %\hspace{0pt plus 1 filll}
+      \hspace*{2ex}\mode<beamer>{%
+          |\hspace*{2ex}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}%
+      }
+  \end{beamercolorbox}}%
+  %\vskip0pt%
+}
+\addtobeamertemplate{sidebar right}{\logo{}}{\logo{\pgfuseimage{logo}}}
+
+\setbeamersize{text margin left=1em,text margin right=1em}
+
+\mode
+<all>

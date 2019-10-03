@@ -1,0 +1,322 @@
+\RequirePackage{snapshot}
+\documentclass[]{beamer}
+
+\input{bit-config}
+
+\usepackage{graphicx}
+
+\usetheme{Eurac}
+
+\newcommand{\myauthor}{Alexander König, Egon W. Stemle}
+\newcommand{\myshortauthor}{König, Stemle}
+\newcommand{\mymail}{Firstname.Lastname@eurac.edu}
+\newcommand{\mytitle}{Technical Solutions for Reproducible Research}
+%\newcommand{\mytitle}{My Long and Exciting Title -- Pretty Damn Long! Wouldn't You Say? ..... ........ ...... .. ......... ......... .....}
+%\newcommand{\mytitle}{My Long and Exciting Title -- Pretty Damn Long! Wouldn't You Say? \ldots and it's not over quite, yet!}
+\newcommand{\myshorttitle}{CAC 2019: Reproducibility}
+%\newcommand{\mysubtitle}{very short subtitle}
+\newcommand{\mysubtitle}{CLARIN Annual Conference 2019}
+%\newcommand{\mysubtitle}{not-so-interesting but-still-important-subtitle that-hasn't-ended-just-yet}
+\newcommand{\mypdftitle}{\mytitle -- \mysubtitle}
+\newcommand{\myinstitute}{Institute for Applied Linguistics \\ Eurac Research, Bozen/Bolzano, Italy}
+\newcommand{\myshortinstitute}{ComMul}
+\newcommand{\mydate}{2 October 2019}
+\newcommand{\mykeywords}{reproducibility, docker, git}
+
+\title[\myshorttitle]{\mytitle}
+\subtitle{\mysubtitle}
+\author[\myshortauthor]{\myauthor \\ {\tt<\mymail>}}
+\institute[\myshortinstitute]{\myinstitute}
+\keywords{\mykeywords}
+\subject{Slides of presentation:\myshorttitle, from \mydate.}
+\date{\mydate}
+
+%
+%DOCUMENT begins here
+%
+\begin{document}
+
+\begin{frame}[plain,noframenumbering]
+	\titlepage
+\end{frame}
+
+%
+% OVERVIEW
+%
+%\section*{}
+%    \setbeamertemplate{footline}{}
+%    \begin{frame}<handout:0>[noframenumbering]
+%        \frametitle{Outline}
+%        \tableofcontents[currentsection]
+%    \end{frame}
+%    \begin{frame}<beamer:0>[noframenumbering]
+%        \frametitle{Outline}
+%        \tableofcontents[]
+%    \end{frame}
+
+
+%%%%%%
+%
+%CONTENT comes here
+%
+
+%
+% Corpus from the WEB
+%
+%\section{Corpora}
+\section[p.one]{Introducing the Problem}
+{%
+\begin{frame}<beamer>
+    \frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+	\begin{frame}
+		\frametitle{Introduction}
+		\begin{block}{The Problem}
+			\begin{itemize}
+				\item By design, research results should be verifiable by other researchers to ensure good scientific practice and easily detect mistakes.
+				\pause
+				\item While this is a key feature of all research, it seems that this can often be a problem - especially in the Social Sciences and Humanities (SSH).
+				\pause
+				\begin{itemize}
+					\item Primary data is often not available to fellow researchers.
+					\pause
+					\item The analysis is based on software that is obscure, not easily available or (at worst) not properly identified in the scientific publication.
+				\end{itemize}
+		   \end{itemize}
+	   \end{block}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Introduction}
+		\begin{block}{The Question}
+			\begin{itemize}
+				\pause
+				\bigskip
+				\item \textbf{How can we make Linguistic Research more reproducible?}
+				\bigskip
+		   \end{itemize}
+	   \end{block}
+	\end{frame}
+
+    \begin{frame}
+        \frametitle{Introduction}
+        \begin{block}{Data Sharing}
+            \begin{itemize}
+				\item Both the primary data and the tools being used have to be made available to fellow researchers.
+				\pause
+				\item If the data and tools can be shared publicly this has the added bonus that they can be re-used for other research as well.
+				\pause
+				\item Good guidelines for how research data should be shared can be found in the FAIR Principles (\url{https://www.go-fair.org/fair-principles/}).
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+
+	\begin{frame}
+        \frametitle{Introduction}
+        \begin{block}{Versioning of Data and Tools}
+            \begin{itemize}
+				\item Linguistic corpora are often "living data", which means they constantly keep being improved and added onto.
+				\pause
+				\item All versions of a corpus that have been the basis of a scientific analysis have to be available.
+				\pause
+				\item The same is true for linguistic tools that are being used to process the data.
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+\section[p.two]{Possible Solutions}
+{%
+\begin{frame}<beamer>
+    \frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+    \begin{frame}
+        \frametitle{Reproducible Data}
+        \begin{block}{Versioning of linguistic corpora}
+            \begin{itemize}
+				\item Most linguistic corpora are text-based or have a text component (and it's especially this component that is changing).
+				\pause
+				\item An existing versioning software like subversion or git can be used to track changes in the primary data.
+				\pause
+				\item To make the various versions available and have the changes be transparent, the data can be hosted on a Code Hosting Site like github or gitlab.
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Reproducible Methods}
+        \begin{block}{Versioning of linguistic tools}
+            \begin{itemize}
+				\item In linguistic research handcrafted toolchains built out of a variety of separate programs are very common.
+				\pause
+				\item Often, it will be difficult to rebuild such a toolchain exactly.
+				\pause
+				\begin{itemize}
+					\item Some tools might no longer be available or cannot be found.
+					\pause
+					\item It might not be completely clear which specific version of a tool was used.
+					\pause
+					\item Some manufacturers do not keep older versions of their software available for download.
+				\end{itemize}
+				\pause
+				\item One solution is to create a (Docker) container with a "frozen" version of the complete toolchain.
+				\pause
+				\item Such a container can also be made available in a public container registry.
+				\pause
+				\item Orchestrators such as Kubernetes can help fellow researchers to easily deploy such a container to reproduce the analysis.
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+\section[p.three]{A Case Study}
+{%
+\begin{frame}<beamer>
+    \frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+    \begin{frame}
+        \frametitle{Case Study}
+        \begin{block}{The MERLIN corpus}
+            \begin{itemize}
+				\item At the Eurac Research CLARIN Centre (ERCC) we made some first steps in implementing these ideas.
+				\pause
+				\item By now multiple corpora are versioned via git, the multilingual MERLIN corpus being the first.
+				\pause
+				\item The whole corpus is available on an on-premise gitlab installation.
+				\pause
+				\item The different versions of the corpus are realized as git tags.
+				\pause
+				\item Tagged versions are also uploaded into a CLARIN DSpace repository.
+				\pause
+				\item The DSpace and the gitlab repository are pointing at each other, so users can choose their preferred way of obtaining the data.
+				\pause
+				\item {\small \url{https://gitlab.inf.unibz.it/commul/merlin-platform/data-bundle}}
+				\pause
+				\item \url{http://hdl.handle.net/20.500.12124/6}
+     		\end{itemize}
+        \end{block}
+    \end{frame}
+
+\section[p.four]{Challenges and Pitfalls}
+{%
+\begin{frame}<beamer>
+    \frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+    \begin{frame}
+        \frametitle{Challenges and Pitfalls}
+        \begin{block}{Some examples of problems - encountered and expected}
+            \begin{itemize}
+				\pause
+				\item[\textbf{(?)}] How to handle non-public data? Hide the git repository? Protect it with a password?
+				\pause
+				\item[\textbf{(!)}] We used password-protected git submodules to keep the general description (README,CHANGELOG) still accessible to everybody.
+				\pause
+				\item[\textbf{(?)}] Can non-local infrastructure like github be trusted with sensitive data?
+				\pause
+				\item[\textbf{(!)}] gitlab is available as open source and can be installed locally, meaning the data will never leave the researcher's control.
+				\pause
+	 			\item[\textbf{(?)}] Dockerfiles do not enforce consistent versioning of installed packages.
+				\pause
+				\item[\textbf{(!)}] One has to make sure to always pin specific versions of installed software packages. Relying mostly on the built images will make this problem less important.
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+	\section[p.five]{Conclusions and Outlook}
+	{%
+	\begin{frame}<beamer>
+	    \frametitle{Outline}
+	\tableofcontents[currentsection]
+	\end{frame}
+	}
+
+	\begin{frame}
+        \frametitle{Conclusions}
+        \begin{block}{How to ensure reproducibility?}
+            \begin{itemize}
+				\item Reproducibility of scientific research will only become more important in the future.
+				\pause
+				\item Especially with "living data", like linguistic corpora one has to take care to ensure that findings can be reproduced by keeping older versions available.
+				\pause
+				\item Standard IT tools like git and docker seem to offer an easy way to handle this.
+				\pause
+	 			\item Still they have to be used with care.
+	     	\end{itemize}
+        \end{block}
+    \end{frame}
+
+	\begin{frame}
+		\frametitle{The Future}
+		\begin{block}{What role can CLARIN play?}
+			\begin{itemize}
+				\item We see two possible ways in which CLARIN can help
+				\pause
+				\item[1)] Develop best practices and guidelines that can help researchers in ensuring the reproducibility of their research.
+				\pause
+				\item[2)] Help in setting up the necessary infrastructure, for example by hosting a trusted gitlab instance that can be used to host both data and toolchain containers
+			\end{itemize}
+		\end{block}
+	\end{frame}
+
+	\begin{frame}
+			\frametitle{Fin}
+			\begin{block}{Thank you for your attention!}
+			\begin{center}
+					\bigskip
+					\bigskip
+					\textbf{Comments? Questions?}
+					\\[2\baselineskip]
+					\url{Alexander.Koenig@eurac.edu}
+			\end{center}
+			\end{block}
+	\end{frame}
+
+
+
+%%%
+% REFERENCES
+%
+%\part{References}\frame{\partpage}
+%
+%	\section*{References}
+%    \nocite{*}
+%	\begin{frame}[allowframebreaks]
+%		\frametitle{References}
+%
+%        % with \usepackage[...'style=authoryear'...]{biblatex}
+%		%\setbeamertemplate{bibliography item}[text]
+%        %\printbibliography
+%
+%        % without 'style=authoryear' and icons for different bibentry types
+%		\setbeamertemplate{bibliography item}[online]
+%		\printbibliography[ % title={Web Sites}
+%            category={online}]
+%		\setbeamertemplate{bibliography item}[article]
+%
+%		\printbibliography[ % title={Journal Articles}
+%			category={article}]
+%
+%		\setbeamertemplate{bibliography item}[book]
+%		\printbibliography[ % title={Books}
+%            category={book}]
+%
+%        \setbeamertemplate{bibliography item}{X}
+%        \printbibliography[ % title={Other Stuff}
+%			category={triangle}]
+%	\end{frame}
+%
+%
+%%%
+
+\end{document}

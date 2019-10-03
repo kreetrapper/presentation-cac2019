@@ -1,0 +1,9 @@
+201706   egon w. stemle <egon.stemle@eurac.edu>
+    - adapt to new eurac research design 
+
+20130623 klara.kranebitter <klara.kranebitter@eurac.edu>
+    - modifications after consultations with EURAC press
+
+201203   egon w. stemle <egon.stemle@eurac.edu>
+    - initial version
+

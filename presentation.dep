@@ -1,0 +1,240 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2016/02/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {beamer}      {2015/01/05 v3.36}
+  *{package}{beamerbasercs}{2015/03/08 v368aa9ba9d38)}
+  *{package}{beamerbasemodes}{2013/09/03 v768f2d98ca64)}
+  *{package}{beamerbasedecode}{2010/05/01 v082c6111d)}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{beamerbaseoptions}{2013/03/10 v47431932db0d)}
+  *{package}{keyval}      {2014/10/28 v1.15}
+  *{package}{geometry}    {2010/09/12 v5.6}
+  *{package}{ifvtex}      {2010/03/01 v1.5}
+  *{package}{ifxetex}     {2010/09/12 v0.6}
+  *{file}   {size11.clo}  {2014/09/29 v1.4h}
+  *{package}{pgfcore}     {2010/04/11 v3.0.1a}
+  *{package}{graphicx}    {2014/10/28 v1.0g}
+  *{package}{graphics}    {2016/01/03 v1.0q}
+  *{package}{trig}        {2016/01/03 v1.10}
+  *{file}   {graphics.cfg}{2010/04/23 v1.9}
+  *{file}   {pdftex.def}  {2011/05/27 v0.06d}
+  *{package}{infwarerr}   {2010/04/08 v1.3}
+  *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{pgfsys}      {2014/07/09 v3.0.1a}
+  *{package}{pgfrcs}      {2015/08/07 v3.0.1a}
+  *{package}{everyshi}    {2001/05/15 v3.00}
+  *{file}   {pgfrcs.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgfsys.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgfsyssoftpath.code.tex}{2013/09/09 v1.9)}
+  *{file}   {pgfsysprotocol.code.tex}{2006/10/16 v1.4)}
+  *{package}{xcolor}      {2007/01/21 v2.11}
+  *{file}   {color.cfg}   {2007/01/18 v1.5}
+  *{file}   {pgfcore.code.tex}{0000/00/00 v0.0}
+  *{package}{xxcolor}     {2003/10/24 v0.1}
+  *{package}{atbegshi}    {2011/10/05 v1.16}
+  *{package}{hyperref}    {2012/11/06 v6.83m}
+  *{package}{hobsub-hyperref}{2012/05/28 v1.13}
+  *{package}{hobsub-generic}{2012/05/28 v1.13}
+  *{package}{hobsub}      {2012/05/28 v1.13}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{intcalc}     {2007/09/27 v1.1}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{kvdefinekeys}{2011/04/07 v1.3}
+  *{package}{luatex-loader}{2010/03/09 v0.4}
+  *{package}{pdftexcmds}  {2011/11/29 v0.20}
+  *{package}{pdfescape}   {2011/11/25 v1.13}
+  *{package}{bigintcalc}  {2012/04/08 v1.3}
+  *{package}{bitset}      {2011/01/30 v1.1}
+  *{package}{uniquecounter}{2011/01/30 v1.2}
+  *{package}{letltxmacro} {2010/09/02 v1.4}
+  *{package}{hopatch}     {2012/05/28 v1.2}
+  *{package}{xcolor-patch}{2011/01/30 v0.0}
+  *{package}{atveryend}   {2011/06/30 v1.8}
+  *{package}{refcount}    {2011/10/16 v3.4}
+  *{package}{hycolor}     {2011/01/30 v1.7}
+  *{package}{auxhook}     {2011/03/04 v1.3}
+  *{package}{kvoptions}   {2011/06/30 v3.11}
+  *{file}   {pd1enc.def}  {2012/11/06 v6.83m}
+  *{file}   {hyperref.cfg}{2002/06/06 v1.2}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{file}   {hpdftex.def} {2012/11/06 v6.83m}
+  *{package}{rerunfilecheck}{2011/04/15 v1.7}
+  *{package}{beamerbaserequires}{2010/05/01 v082c6111d)}
+  *{package}{beamerbasecompatibility}{2012/05/01 v67c48b3b652d)}
+  *{package}{beamerbasefont}{2015/01/05 v4b4bee242e2)}
+  *{package}{amssymb}     {2013/01/14 v3.01}
+  *{package}{amsfonts}    {2013/01/14 v3.01}
+  *{package}{sansmathaccent}{2013/03/28 v0.0}
+  *{package}{filehook}    {2011/10/12 v0.5d}
+  *{package}{beamerbasetranslator}{2010/06/11 v85fd1cc7fc42)}
+  *{package}{translator}  {2010/06/12 v1.10}
+  *{file}   {translator-language-mappings.tex}{0000/00/00 v0.0}
+  *{package}{beamerbasemisc}{2013/09/03 v55719c41d85)}
+  *{package}{beamerbasetwoscreens}{2010/05/01 v082c6111d)}
+  *{package}{beamerbaseoverlay}{2013/12/25 v6bd5e3805da)}
+  *{package}{beamerbasetitle}{2010/09/21 v0446ed0b6ae)}
+  *{package}{beamerbasesection}{2013/06/07 v60b9fe0f342f)}
+  *{package}{beamerbaseframe}{2014/02/20 v4b8ceeeff434)}
+  *{package}{beamerbaseverbatim}{2015/01/05 v431510bb5890)}
+  *{package}{beamerbaseframesize}{2011/09/12 v70f9d8411e54)}
+  *{package}{beamerbaseframecomponents}{2013/10/18 v5cf6c5555a45)}
+  *{package}{beamerbasecolor}{2015/02/21 v944b04ee2d5)}
+  *{package}{beamerbasenotes}{2012/12/19 v1686da3db3c9)}
+  *{package}{beamerbasetoc}{2015/03/08 v7270298bbaae)}
+  *{package}{beamerbasetemplates}{2010/05/01 v082c6111d)}
+  *{package}{beamerbaseauxtemplates}{2014/06/30 v580088513a67)}
+  *{package}{beamerbaseboxes}{2012/05/13 v56972908a390)}
+  *{package}{beamerbaselocalstructure}{2014/09/10 v393f6dcff371)}
+  *{package}{enumerate}   {2015/07/23 v3.00}
+  *{package}{beamerbasenavigation}{2015/02/27 v923f4bf87efa)}
+  *{package}{beamerbasetheorems}{2010/06/06 v7e7cc5e53e9d)}
+  *{package}{amsmath}     {2016/03/03 v2.15a}
+  *{package}{amstext}     {2000/06/29 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {1999/12/14 v2.01}
+  *{package}{amsthm}      {2015/03/04 v2.20.2}
+  *{package}{beamerbasethemes}{2010/05/01 v082c6111d)}
+  *{package}{beamerthemedefault}{2010/06/17 v02a7cf4d8ae)}
+  *{package}{beamerfontthemedefault}{2012/12/19 v1686da3db3c9)}
+  *{package}{beamercolorthemedefault}{2012/12/19 v1686da3db3c9)}
+  *{package}{beamerinnerthemedefault}{2014/06/30 v580088513a67)}
+  *{package}{beamerouterthemedefault}{2012/12/19 v1686da3db3c9)}
+  *{file}   {bit-config.tex}{0000/00/00 v0.0}
+  *{package}{babel}       {2016/02/24 v3.9q}
+  *{file}   {german.ldf}  {2014/10/10 v2.7b}
+  *{file}   {english.ldf} {2012/08/20 v3.3p}
+  *{package}{biblatex}    {2016/03/03 v3.3}
+  *{package}{biblatex_}   {2016/03/03 v3.3}
+  *{package}{etoolbox}    {2015/08/02 v2.2a}
+  *{package}{logreq}      {2010/08/04 v1.0}
+  *{file}   {logreq.def}  {2010/08/04 v1.0}
+  *{package}{ifthen}      {2014/09/29 v1.1c}
+  *{file}   {blx-dm.def}  {0000/00/00 v0.0}
+  *{file}   {biblatex-dm.cfg}{0000/00/00 v0.0}
+  *{file}   {blx-compat.def}{2016/03/03 v3.3}
+  *{file}   {biblatex_.def}{0000/00/00 v0.0}
+  *{file}   {blx-natbib.def}{2016/03/03 v3.3}
+  *{file}   {standard.bbx}{2016/03/03 v3.3}
+  *{file}   {numeric.bbx} {2016/03/03 v3.3}
+  *{file}   {numeric.cbx} {2016/03/03 v3.3}
+  *{file}   {biblatex.cfg}{0000/00/00 v0.0}
+  *{package}{csquotes}    {2016/01/31 v5.1g}
+  *{file}   {csquotes.def}{2016/01/31 v5.1g}
+  *{file}   {csquotes.cfg}{0000/00/00 v0.0}
+  *{package}{xmpmulti}    {0000/00/00 v0.0}
+  *{package}{blindtext}   {2012/01/06 v2.0}
+  *{package}{xspace}      {2014/10/28 v1.13}
+  *{package}{beamerthemeEurac}{0000/00/00 v0.0}
+  *{package}{tikz}        {2015/08/07 v3.0.1a}
+  *{package}{pgf}         {2015/08/07 v3.0.1a}
+  *{package}{pgfcomp-version-0-65}{2007/07/03 v3.0.1a}
+  *{package}{pgfcomp-version-1-18}{2007/07/23 v3.0.1a}
+  *{package}{pgffor}      {2013/12/13 v3.0.1a}
+  *{package}{pgfkeys}     {0000/00/00 v0.0}
+  *{file}   {pgfkeys.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfmath}     {0000/00/00 v0.0}
+  *{file}   {pgfmath.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgffor.code.tex}{0000/00/00 v0.0}
+  *{file}   {tikz.code.tex}{0000/00/00 v0.0}
+  *{package}{shapepar}    {2013/03/26 v2.2x,}
+  *{package}{xstring}     {2013/10/13 v1.7c}
+  *{package}{beamerfontthemeEurac}{0000/00/00 v0.0}
+  *{package}{fontspec}    {2016/02/01 v2.5a}
+  *{package}{expl3}       {2016/01/19 v6377}
+  *{file}   {expl3-code.tex}{2016/01/19 v6377}
+  *{file}   {l3pdfmode.def}{2015/11/11 v6250}
+  *{package}{xparse}      {2016/01/19 v6377}
+  *{package}{luaotfload}  {2015/12/09 v2.6}
+  *{package}{fontspec-luatex}{2016/02/01 v2.5a}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {eu2enc.def}  {2010/05/27 v0.1h}
+  *{file}   {eu2lmr.fd}   {2009/10/30 v1.6}
+  *{package}{xunicode}    {2011/09/09 v0.981}
+  *{file}   {eu2lmss.fd}  {2009/10/30 v1.6}
+  *{file}   {fontspec.cfg}{0000/00/00 v0.0}
+  *{package}{unicode-math}{2015/09/24 v0.8c}
+  *{package}{ucharcat}    {2015/11/19 v0.03}
+  *{package}{l3keys2e}    {2016/01/19 v6377}
+  *{package}{fix-cm}      {2015/01/14 v1.1t}
+  *{file}   {ts1enc.def}  {2001/06/05 v3.0e}
+  *{package}{unicode-math-luatex}{0000/00/00 v0.0}
+  *{package}{lualatex-math}{2015/09/22 v1.5}
+  *{package}{beamercolorthemeEurac}{0000/00/00 v0.0}
+  *{package}{beamerinnerthemerounded}{2010/06/17 v02a7cf4d8ae)}
+  *{package}{beamerouterthemeEurac}{0000/00/00 v0.0}
+  *{file}   {english.lbx} {2016/03/03 v3.3}
+  *{file}   {german.lbx}  {2016/03/03 v3.3}
+  *{file}   {t3cmr.fd}    {2001/12/31 v0.0}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{epstopdf-base}{2010/02/09 v2.5}
+  *{package}{grfext}      {2010/08/19 v1.1}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{package}{nameref}     {2012/10/27 v2.43}
+  *{package}{gettitlestring}{2010/12/03 v1.4}
+  *{file}   {presentation.out}{0000/00/00 v0.0}
+  *{file}   {presentation.out}{0000/00/00 v0.0}
+  *{file}   {translator-basic-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {translator-bibliography-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {translator-environment-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {translator-months-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {translator-numbers-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {translator-theorem-dictionary-English.dict}{0000/00/00 v0.0}
+  *{file}   {presentation.bbl}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {umsa.fd}     {2013/01/14 v3.01}
+  *{file}   {umsb.fd}     {2013/01/14 v3.01}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+  *{file}   {img/eurac_research-line_logo-red.pdf}{0000/00/00 v0.0}
+}

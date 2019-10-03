@@ -1,0 +1,98 @@
+% Eurac Research theme for beamer
+\usepackage{tikz}
+\usetikzlibrary{calc,fit,intersections}
+\usepackage{shapepar}
+\usepackage{ifthen}
+\usepackage{xstring}
+
+\mode<presentation>
+
+\newif\ifbeamer@secheader
+\beamer@secheaderfalse
+
+\DeclareOptionBeamer{secheader}{\beamer@secheadertrue}
+\ProcessOptionsBeamer
+
+\usefonttheme{Eurac}
+\usecolortheme{Eurac}
+\useinnertheme[shadow]{rounded}
+\useoutertheme{Eurac}
+
+\ifbeamer@secheader\else\setbeamertemplate{headline}[default]\fi
+
+
+% eurac research logo title
+\pgfdeclareimage[height=6ex]{logo}{img/eurac_research-stacked_logo-red.pdf}
+\titlegraphic{%
+    \tikz[overlay,remember picture] 
+    \node[xshift=0.5\leftmargini, yshift=-13.1ex, at=(current page.north west),anchor=north west,inner sep=0pt]{%
+        \pgfuseimage{logo}
+    };
+}
+
+
+%%%%%
+%%% TITLE / SUBTITLE / AUTHOR - MAGIC
+%
+% eurac institute pic for title
+\pgfdeclareimage[height=\paperheight]{instituteimage}{img/background_yellow.pdf}
+\newcommand\titlegraphicbg[1]{\def\inserttitlegraphicbg{#1}}
+\titlegraphicbg{%
+    \begin{tikzpicture}[overlay,remember picture] 
+    \node (img) [opacity=0.7, at=(current page.south east),anchor=south east,inner sep=0pt]{%
+        \pgfuseimage{instituteimage}
+        };
+    \end{tikzpicture}
+}
+
+%
+% 
+\def\titlepar{
+    \usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle
+}
+%%%
+\def\subtitlepar{
+    \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle
+}
+%%%
+\def\authorpar{
+    \usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor
+}
+%
+%%% Put the date on the right side - try to fit it into an open space
+%
+\def\datepar{
+    \tikz[overlay,remember picture] 
+    \node[xshift=-0.37\leftmargini,
+          yshift=-13.1ex,
+          at=(current page.north east),anchor=north east,inner sep=0pt]{%
+        {\usebeamerfont{date}\color{white}\small\insertdate}
+    };
+}
+
+\setbeamertemplate{title page}
+{%
+\inserttitlegraphic
+\inserttitlegraphicbg
+
+  \vspace*{0.45\paperheight}
+  \titlepar
+
+  \medskip
+
+  \ifx\insertsubtitle\@empty%
+  \else%
+    \subtitlepar
+  \fi%     
+
+  \vfill
+  \authorpar
+  \ifx\insertdate\@empty%
+  \else%
+    %\hfill{\color{black}\insertdate}
+    \datepar
+  \fi%     
+}
+
+\mode
+<all>
